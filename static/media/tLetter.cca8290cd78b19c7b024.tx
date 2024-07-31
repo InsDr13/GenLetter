@@ -1,0 +1,46 @@
+\documentclass[12pt]{letter} 
+\usepackage[utf8]{inputenc} % Required for inputting international characters
+\usepackage[T1]{fontenc} % Output font encoding for international characters
+\usepackage{amsmath}
+\usepackage[french]{babel} % Add the french option
+\usepackage{hyperref}
+\usepackage{fouriernc}
+\usepackage{newtxtext}
+\usepackage{graphicx}
+\linespread{1.5}
+\usepackage{geometry}
+\geometry{
+    paper=a4paper, % Paper size, change to letterpaper for US letter size
+    top=2cm, % Top margin
+    bottom=3cm, % Bottom margin
+    left=2.5cm, % Left margin
+    right=2.5cm, % Right margin
+    %showframe, % Uncomment to show how the type block is set on the page
+}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\vspace{1cm} % Vertical whitespace
+
+ % Your name for the signature at the bottom
+
+%----------------------------------------------------------------------------------------
+%    COVER LETTER CONTENT
+%----------------------------------------------------------------------------------------
+
+<NAME>\hfill\textbf{Le \today} % Add the current date in French on the right side
+\\
+ADRESE: <ADRESSE> \\
+TELEPHONE: <TELEPHONE> \\
+EMAIL: \href{mailto:<EMAIL>}{ <EMAIL> }
+\vspace{10pt}
+\begin{center}
+    \large{LETTRE DE MOTIVATION}
+\end{center}
+
+<BODY>
+\\
+\includegraphics[width=3.5cm]{signature.png} % Adjust the width as needed
+\end{document}
