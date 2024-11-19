@@ -1,0 +1,18 @@
+/* index.css */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0; /* Couleur de fond optionnelle */
+}
+
+#root {
+  width: 375px; /* Largeur mobile (ajuste selon la largeur souhaitée) */
+  max-width: 100%;
+  min-height: 100vh;
+  background-color: white; /* Couleur de fond pour simuler un mobile */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Ombre pour l'effet mobile */
+  overflow-x: hidden;
+}

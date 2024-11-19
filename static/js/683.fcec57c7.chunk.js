@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkgenletterreact=self.webpackChunkgenletterreact||[]).push([[683],{7683:(e,t,n)=>{n.r(t),n.d(t,{ToastWeb:()=>s});var a=n(5403);class s extends a.E_{async show(e){if("undefined"!==typeof document){let t=2e3;e.duration&&(t="long"===e.duration?3500:2e3);const n=document.createElement("pwa-toast");n.duration=t,n.message=e.text,document.body.appendChild(n)}}}}}]);
+//# sourceMappingURL=683.fcec57c7.chunk.js.map
