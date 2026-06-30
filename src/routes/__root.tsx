@@ -173,12 +173,17 @@ function Header() {
   return (
     <header className={`fixed inset-x-0 top-0 z-50 transition-all duration-500 bg-bone/95 backdrop-blur-xl ${scrolled ? "border-b border-line shadow-[0_1px_0_rgba(0,0,0,0.04)]" : "border-b border-transparent"}`}>
       <div className="container-x grid grid-cols-[minmax(0,1fr)_auto] items-center gap-6 py-4 md:py-5">
-        <Link to="/" className="flex items-center gap-3 min-w-0" onClick={() => setOpen(false)} aria-label="BETAREX — Home">
-          <span className="grid h-9 w-9 shrink-0 place-items-center rounded-full bg-ink text-bone font-display text-lg leading-none">B</span>
-          <span className="flex flex-col leading-tight min-w-0">
-            <span className="font-display text-lg tracking-tight truncate text-ink">BETAREX</span>
-            <span className="eyebrow text-[0.6rem] text-ink-soft">Architecture · RDC</span>
-          </span>
+       <Link
+          to="/"
+          className="flex items-center gap-3 min-w-0"
+          onClick={() => setOpen(false)}
+          aria-label="BETAREX — Home"
+        >
+          <img
+            src={logo}
+            alt="BETAREX"
+            className="h-12 w-auto object-contain"
+          />
         </Link>
         <nav className="hidden lg:flex items-center gap-8" aria-label="Primary">
           {NAV.map((item) => (
