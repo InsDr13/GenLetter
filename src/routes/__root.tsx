@@ -186,10 +186,10 @@ function Header() {
             />
           
             <div className="flex flex-col leading-tight">
-              <span className="text-lg font-bold text-white tracking-wide">
+              <span className="text-lg font-bold text-black tracking-wide">
                 BETAREX
               </span>
-              <span className="text-xs text-gray-300">
+              <span className="text-xs text-black-300">
                 Architecte, RDC
               </span>
             </div>
