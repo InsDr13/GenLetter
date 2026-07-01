@@ -3,6 +3,7 @@ import { PageHero } from "./about";
 import { useI18n } from "@/lib/i18n";
 import heroExpertise from "@/assets/hero-expertise.jpg";
 import heroArch from "@/assets/hero-architecture.jpg";
+import profil from "@/assets/profil.jpg";
 
 export const Route = createFileRoute("/founder")({
   head: () => ({
@@ -36,7 +37,7 @@ function Founder() {
   const { t } = useI18n();
   return (
     <>
-      <PageHero eyebrow={t("founder.hero.eyebrow")} title={t("founder.hero.title")} image={heroArch} />
+      <PageHero eyebrow={t("founder.hero.eyebrow")} title={t("founder.hero.title")} image={profil} />
 
       <section className="container-x py-24 md:py-32">
         <div className="grid gap-16 lg:grid-cols-12 lg:gap-20">
