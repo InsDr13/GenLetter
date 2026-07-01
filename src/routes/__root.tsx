@@ -15,7 +15,7 @@ import { Facebook, Instagram, Linkedin, Youtube, Globe } from "lucide-react";
 import { I18nProvider, useI18n } from "@/lib/i18n";
 import { ScrollToTop } from "@/components/ScrollToTop";
 import heroArch from "@/assets/hero-architecture.jpg";
-import logo from "@/assets/logo (2).jpg";
+import logo from "@/assets/logo-betarex.jpg";
 
 function NotFoundComponent() {
   const { t } = useI18n();
