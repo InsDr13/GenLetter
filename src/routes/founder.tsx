@@ -43,7 +43,7 @@ function Founder() {
         <div className="grid gap-16 lg:grid-cols-12 lg:gap-20">
           <div className="lg:col-span-5">
             <div className="aspect-[4/5] overflow-hidden bg-stone">
-              <img src={heroExpertise} alt="Joël MWILARHE Beni — fondateur BETAREX" loading="lazy" className="h-full w-full object-cover" />
+              <img src={profil} alt="Joël MWILARHE Beni — fondateur BETAREX" loading="lazy" className="h-full w-full object-cover" />
             </div>
             <div className="mt-6 font-mono text-xs uppercase tracking-widest text-muted-foreground">{t("founder.cap")}</div>
           </div>
