@@ -3,7 +3,7 @@ import { PageHero } from "./about";
 import { useI18n } from "@/lib/i18n";
 import heroExpertise from "@/assets/hero-expertise.jpg";
 import heroArch from "@/assets/hero-architecture.jpg";
-import profil from "@/assets/profil.jpg";
+import profil from "@/assets/ceo.jpeg";
 
 
 export const Route = createFileRoute("/founder")({
