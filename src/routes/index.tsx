@@ -21,6 +21,7 @@ export const Route = createFileRoute("/")({
       { name: "twitter:image", content: heroArch },
     ],
     links: [
+      { rel: "icon", type: "image/png", href: "/favicon.png" }
       { rel: "canonical", href: "/" },
       { rel: "preload", as: "image", href: heroArch, fetchpriority: "high" } as any,
     ],
