@@ -98,8 +98,8 @@ function VideoPresentation() {
       </div>
       <motion.div initial={{ opacity: 0, scale: 0.98 }} whileInView={{ opacity: 1, scale: 1 }} viewport={{ once: true, margin: "-100px" }} transition={{ duration: 0.9, ease: [0.16, 1, 0.3, 1] }} className="relative aspect-video w-full overflow-hidden bg-ink rounded-sm shadow-2xl">
         <iframe
-          src={`https://www.youtube.com/embed/${VIDEO_ID}?rel=0`}
-          title={t("home.video.frameTitle")}
+          src="https://www.youtube.com/embed/dUBmSOCkakE?si=a1FMK5uZZ96_OG5Z"
+          title="Presentation betarex RDC"
           loading="lazy"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowFullScreen
