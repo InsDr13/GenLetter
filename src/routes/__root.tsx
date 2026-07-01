@@ -173,27 +173,27 @@ function Header() {
   return (
     <header className={`fixed inset-x-0 top-0 z-50 transition-all duration-500 bg-bone/95 backdrop-blur-xl ${scrolled ? "border-b border-line shadow-[0_1px_0_rgba(0,0,0,0.04)]" : "border-b border-transparent"}`}>
       <div className="container-x grid grid-cols-[minmax(0,1fr)_auto] items-center gap-6 py-4 md:py-5">
-      <Link
-            to="/"
-            className="flex items-center gap-3 min-w-0"
-            onClick={() => setOpen(false)}
-            aria-label="BETAREX — Home"
-          >
-            <img
-              src={logo}
-              alt="BETAREX"
-              className="h-12 w-auto object-contain"
-            />
-          
-            <div className="flex flex-col leading-tight">
-              <span className="text-lg font-bold text-black tracking-wide">
-                BETAREX
-              </span>
-              <span className="text-xs text-black-300">
-                Architecte, RDC
-              </span>
-            </div>
-          </Link>
+     <Link
+  to="/"
+  className="flex items-center gap-3 min-w-0"
+  onClick={() => setOpen(false)}
+  aria-label="BETAREX — Home"
+>
+  <img
+    src={logo}
+    alt="BETAREX"
+    className="h-12 w-auto object-contain"
+  />
+
+  <div className="flex flex-col leading-tight">
+    <span className="text-lg font-bold tracking-wide text-black">
+      BETAREX
+    </span>
+    <span className="text-xs font-medium text-black">
+      Architectes • RDC
+    </span>
+  </div>
+</Link>
         <nav className="hidden lg:flex items-center gap-8" aria-label="Primary">
           {NAV.map((item) => (
             <Link
