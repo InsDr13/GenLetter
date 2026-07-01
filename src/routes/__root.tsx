@@ -182,7 +182,7 @@ function Header() {
                   
           <span className="flex flex-col leading-tight min-w-0">
             <span className="font-display text-lg tracking-tight truncate text-ink">BETAREX</span>
-            <span className="eyebrow text-[0.6rem] text-ink-soft">Architecture · RDC</span>
+            <span className="eyebrow text-[0.6rem] text-ink-soft">Architecture - expertise immobilière</span>
           </span>
         </Link>
         <nav className="hidden lg:flex items-center gap-8" aria-label="Primary">
